@@ -1,0 +1,56 @@
+/* まず、style.cssにこのルールを書き入れてください。 */
+body {
+  background-color: #a1b9da;
+  font-family:Nunito, sans-serif;
+}
+
+.blurb h2{
+    color: blue;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p{
+    color:rgb(135, 163, 223);
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+/* ここにルールを足していきましょう。*/
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand{
+    color:blue
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color:blue;
+}
+
+#headingGroup span{
+    color:blue;
+}
+
+#headingGroup h2{
+    font-weight: 100;
+    font-size:4rem ;
+}
+
+.navbar.scrolld{
+    background: violet;
+    transition: background 500ms;
+}
+
+@media(max-width: 1200px){
+    #headingGroup h2{
+        font-size: 3rem;
+    }
+}
