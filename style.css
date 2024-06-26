@@ -11,7 +11,7 @@ body {
 }
 
 .blurb p{
-    color:rgb(135, 163, 223);
+    color:rgb(76, 109, 180);
     font-weight: 100;
     font-size: 1.25rem;
     line-height: 2;
@@ -23,8 +23,8 @@ body {
 }
 
 #mainNavbar .navbar-brand{
-    color:blue
-    font-size: 1.5rem;
+    color:blue;
+    font-size:1.5rem;
 }
 
 #mainNavbar .nav-link{
@@ -44,9 +44,9 @@ body {
     font-size:4rem ;
 }
 
-.navbar.scrolld{
+.navbar.scrolled{
     background: violet;
-    transition: background 500ms;
+    transition: 500ms;
 }
 
 @media(max-width: 1200px){
